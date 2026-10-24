@@ -1,0 +1,17 @@
+{
+  "name": "agridata-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "grammy": "^1.30.0",
+    "@cloudflare/playwright": "^1.1.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0",
+    "typescript": "^5.0.0",
+    "@cloudflare/workers-types": "^4.20241022.0"
+  }
+}
