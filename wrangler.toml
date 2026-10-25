@@ -1,6 +1,6 @@
 name = "agridata-bot"
 main = "src/index.ts"
 compatibility_date = "2026-10-01"
-compatibility_flags = ["nodejs_compat"]
+compatibility_flags = []
 
 browser = { binding = "MYBROWSER" }
