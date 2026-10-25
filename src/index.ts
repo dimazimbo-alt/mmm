@@ -146,6 +146,6 @@ function createBot(env: Env) {
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const bot = createBot(env);
-    return webhookCallback(bot, "cloudflare")(request);
+    return webhookCallback(bot, "cloudflare-mod")(request);
   },
 };
